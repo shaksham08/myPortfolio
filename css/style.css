@@ -1,0 +1,148 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.footer {
+  background-color: #f77;
+  color: white;
+}
+
+.footer img {
+  margin: 20px 20px 20px 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.head {
+  margin: 0;
+  margin: 200px auto;
+  width: 50%;
+  color: white;
+  text-align: center;
+  font-size: 3.5rem;
+}
+#project {
+  margin-top: 75px;
+  background-color: #dae0e2;
+  padding: 0;
+  min-height: 80%;
+  color: #444649 !important;
+  padding-bottom: 50px;
+}
+
+#project img {
+  height: 275px;
+}
+.card {
+  transition: all 0.3s;
+}
+
+#project h1 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.Form {
+  width: 40%;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.border {
+  border: 5px solid red;
+}
+
+.aboutMe {
+  margin-top: 80px;
+  text-align: center;
+}
+
+/* #about .container {
+  max-width: 100%;
+} */
+
+.aboutMe h1 {
+  margin-top: 0;
+}
+
+.header {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+  margin: 0;
+  padding: 50px;
+
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .text {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .type {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .head {
+    margin: 0 auto;
+  }
+
+  .typer {
+    font-size: 25px;
+  }
+
+  .Form {
+    width: 80%;
+  }
+
+  .footer img {
+    margin: 20px 20px 20px 20px;
+    width: 45px;
+    height: 45px;
+  }
+}

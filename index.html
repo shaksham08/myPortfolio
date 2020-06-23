@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+
+
+   
+
+    <!-- importing style.css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Adding the FOnts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/f4c072c564.js" crossorigin="anonymous"></script>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+  </head>
+
+  <body>
+    <section id="home">
+      <div class="navbar-fixed">
+      <nav class="nav-extended">
+        <div class="nav-wrapper">
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#project">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+
+      <ul class="sidenav" id="mobile-demo" style="background-color: #dae0e2;">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#project">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+
+      
+    </section>
+
+    <!-- header -->
+    <div class="header">
+      <!-- Head -->
+      <div class="head">
+        <div class="heading">
+          <p class="text">Hello, I'm Shaksham Sinha.</p>
+        </div>
+
+        <h1>
+          <span
+            class="typer"
+            id="main"
+            data-words="I am a.,Student.,full-stack Web Developer.,and Designer."
+            data-delay="100"
+            data-deleteDelay="1000"
+            data-colors="white"
+          ></span>
+          <span class="cursor" data-owner="main"></span>
+        </h1>
+        <div class="center">
+          <a href="#project" class="waves-effect waves-light btn-large center"
+            >My Work <i class="medium material-icons">arrow_forward</i></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT ME -->
+
+    <section id="about">
+      <div class="container aboutMe">
+        <div class="row center">
+          <div class="col m6 s12 l6 center">
+            <img
+              src="./img/myimage.jpg"
+              style="object-fit: contain;"
+              height="100%"
+              width="100%"
+              alt=""
+              class="z-depth-5"
+            />
+          </div>
+          <div class="col m6 s12 l6 center" style="margin-top: 10%;">
+            <h1>
+              ABOUT
+            </h1>
+            <p style="text-align: center;">
+              I'm a Student at Siddaganga Institute of technology in
+              Tumkur,Karnataka. I have serious passion for technology, and
+              have a great intrest in Robotics and IOT as well.
+              <p>Let's make
+              something special.</p>
+              <div>
+                <img src="./img/iot.png" alt="" height="200px" width="auto">
+               
+                <img src="./img/web.jpg" alt="" height="200px" width="auto">
+              </div>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project">
+      <div class="container center">
+        <h1>PROJECTS</h1>
+        <div class="row center">
+          <div class="col m4 s12 l4 center">
+            <div class="card z-depth-4">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/office.jpg" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"
+                  >TIC TAC TOE<i class="material-icons right">more_vert</i></span
+                >
+                <p><a href="https://eloquent-pasteur-6c3c0c.netlify.app/" class="waves-effect waves-light btn-small center">VIEW</a> <a href="https://github.com/shaksham08/React-Bootcamp/tree/master/four-tictactoe" class="waves-effect waves-light btn-small center">GITHUB</a></p>
+               
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                  >TIC TAC TOE<i class="material-icons right">close</i></span
+                >
+                <p>
+                  This is a simple tic tac toe game built using React front end library.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m4 s12 l4 center">
+            <div class="card z-depth-4">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/rgb.png" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"
+                  >RGB COLOR GAME<i class="material-icons right">more_vert</i></span
+                >
+                <p><a href="./RGB_colorGame/colorGame.html" class="waves-effect waves-light btn-small center">VIEW</a> <a
+                    href="https://github.com/shaksham08/RGB_colorGame"
+                    class="waves-effect waves-light btn-small center">GITHUB</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                  >RGB COLOR GAME<i class="material-icons right">close</i></span
+                >
+                <p>
+                  This is an RGB color game where you have to predict the RGB color given.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m4 s12 l4 center">
+            <div class="card z-depth-4">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/todo.png" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"
+                  >TO-DO list<i class="material-icons right">more_vert</i></span
+                >
+                <p><a href="./TodoList_Jquery/index.html" class="waves-effect waves-light btn-small center">VIEW</a> <a
+                    href="https://github.com/shaksham08/TodoList_Jquery" class="waves-effect waves-light btn-small center">GITHUB</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                  >Card Title<i class="material-icons right">close</i></span
+                >
+                <p>
+                  This is a To-DO app biult using jQuery JS library
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          
+
+         
+    </section>
+
+
+    <section id="contact">
+      <div class="center">
+        <h1>CONTACT</h1>
+        <p>Have a question or want to work together?</p>
+
+
+        <div class="container Form" >
+            <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input placeholder="Name" id="first_name" type="text" class="validate">
+                  </div>
+                </div>
+                  
+               
+               
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Your Message</label>
+                  </div>
+                </div>
+
+                <button type="submit" class="waves-effect waves-light btn">SUBMIT</button>
+                
+              </form>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="footer">
+      <div class="footer center">
+        
+<div>
+        <a href="https://github.com/shaksham08"> <img src="./img/github.png" alt=""></a>
+        <a href="https://www.facebook.com/shaksham.sinha.54"> <img src="./img/facebook.png" alt=""></a>
+        <a href="https://www.hackerrank.com/shakshamsinha08"> <img src="./img/hackerrank.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/shaksham-sinha-788a19190/"> <img src="./img/linkdn.png" alt=""></a>
+      <a href="https://twitter.com/ShakshamSinha"> <img src="./img/twitter.png" alt=""></a>
+        </div>
+        <div>
+          <p style="margin: 0; padding-bottom: 25px;">SHAKSHAMSINHA&copy;2020</p>
+        </div>
+        
+        
+
+
+  
+
+      </div>
+    </section>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Own script.js -->
+    <script src="./js/script.js"></script>
+    <!-- typerjs -->
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+  </body>
+</html>
